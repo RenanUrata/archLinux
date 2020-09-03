@@ -1,4 +1,5 @@
 #!/bin/sh
+curl https://raw.githubusercontent.com/RenanUrata/archLinux/master/archinstall.sh -o archinstall.sh
 #cfdisk /dev/sda
 echo should 
 esp=${1?Set esp partition}
